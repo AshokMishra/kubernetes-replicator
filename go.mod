@@ -12,3 +12,8 @@ require (
 	k8s.io/apimachinery v0.26.1
 	k8s.io/client-go v0.26.1
 )
+
+replace (
+	k8s.io/api => k8s.io/api v0.0.0-20230130210333-a26a16a095ca
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230130210107-16efa9d4d9ad
+)
